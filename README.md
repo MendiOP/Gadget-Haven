@@ -6,15 +6,13 @@ A sleek and responsive website for exploring gadgets with dynamic filtering and 
 
 ## 🌐 **Live Website**
 
-🔗 [**Visit Live Website**](#)  
-_(Replace `#` with your live website link)_
+🔗 [**Visit Live Website**](#)
 
 ---
 
 ## 📄 **Requirement Document**
 
-📥 [**View Requirement Document**]('/Batch-10_Assignment-08.pdf')  
-_(Replace `#` with your requirement document link)_
+📥 [**View Requirement Document**](./Batch-10_Assignment-08.pdf)
 
 ---
 
