@@ -6,7 +6,7 @@ A sleek and responsive website for exploring gadgets with dynamic filtering and 
 
 ## 🌐 **Live Website**
 
-🔗 [**Visit Live Website**](#)
+🔗 [**Visit Live Website**](https://gadget-heaven-late.netlify.app/)
 
 ---
 
