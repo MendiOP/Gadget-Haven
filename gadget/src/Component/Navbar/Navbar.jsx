@@ -6,9 +6,15 @@ import shoppingCart from "../../assets/shopping-cart.png";
 const Navbar = () => {
   const links = (
     <>
-      <NavLink to="/home">Home</NavLink>
-      <NavLink to="/statistics">Statistics</NavLink>
-      <NavLink to="/dashboard">Dashboard</NavLink>
+      <li>
+        <NavLink to="/home">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/statistics">Statistics</NavLink>
+      </li>
+      <li>
+        <NavLink to="/dashboard">Dashboard</NavLink>
+      </li>
     </>
   );
   return (
@@ -33,12 +39,12 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow btn space-x-4"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-black"
           >
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Gadget Haven</a>
+        <a className="btn btn-ghost text-xl">Gadget Heaven</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-12">{links}</ul>
@@ -46,14 +52,14 @@ const Navbar = () => {
       <div className="navbar-end space-x-3">
         <button>
           <img
-            className="border border-gray-300 rounded-full p-2 w-10 h-10"
+            className="border border-gray-300 bg-white rounded-full p-2 w-10 h-10"
             src={shoppingCart}
             alt="Cart"
           />
         </button>
         <button>
           <img
-            className="border border-gray-300 rounded-full p-2 w-10 h-10"
+            className="border border-gray-300 bg-white rounded-full p-2 w-10 h-10"
             src={heart}
             alt="Hate"
           />

@@ -1,0 +1,242 @@
+[
+  {
+    "product_id": "S001",
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/PwsmQ0w/i-Phone-14-Pro-Gold-7135.jpg",
+    "category": "Smartphones",
+    "price": 999.99,
+    "description": "Experience the ultimate performance and camera system with the iPhone 14 Pro.",
+    "specification": [
+      "6.1-inch Super Retina XDR display",
+      "A16 Bionic chip",
+      "48MP Main Camera",
+      "Dynamic Island"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "S002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.ibb.co.com/Vm1xXBB/Galaxy-S23-Ultra-Phantom-Black-2756.jpg",
+    "category": "Smartphones",
+    "price": 1199.99,
+    "description": "Premium smartphone with a massive display and advanced camera setup.",
+    "specification": [
+      "6.8-inch QHD+ AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "200MP Main Camera",
+      "S Pen Support"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "S003",
+    "product_title": "Google Pixel 8",
+    "product_image": "https://i.ibb.co.com/HtcL9RL/pixel8.jpg",
+    "category": "Smartphones",
+    "price": 799.99,
+    "description": "The best of Google’s AI with an amazing camera and smooth performance.",
+    "specification": [
+      "6.3-inch OLED display",
+      "Google Tensor G3 chip",
+      "50MP Main Camera",
+      "Stock Android Experience"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "L001",
+    "product_title": "MacBook Pro M2",
+    "product_image": "https://i.ibb.co.com/M2snds2/prom2.jpg",
+    "category": "Laptops",
+    "price": 1999.99,
+    "description": "Powerful laptop with the new M2 chip, perfect for professionals.",
+    "specification": [
+      "14-inch Liquid Retina XDR display",
+      "Apple M2 Pro chip",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "L002",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/SPtD381/Dell-XPS-15-4-6.webp",
+    "category": "Laptops",
+    "price": 1899.99,
+    "description": "A sleek and powerful laptop with a stunning InfinityEdge display.",
+    "specification": [
+      "15.6-inch OLED display",
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "L003",
+    "product_title": "ASUS ROG Zephyrus G14",
+    "product_image": "https://i.ibb.co.com/ZBkMFKP/asus.webp",
+    "category": "Laptops",
+    "price": 1599.99,
+    "description": "High-performance gaming laptop with a compact design.",
+    "specification": [
+      "14-inch QHD display",
+      "AMD Ryzen 9",
+      "NVIDIA RTX 4060",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "C001",
+    "product_title": "Canon EOS R6 Mark II",
+    "product_image": "https://i.ibb.co.com/Vm4k3FM/canon.jpg",
+    "category": "Cameras",
+    "price": 2499.99,
+    "description": "Professional-grade mirrorless camera with superb autofocus and 4K video.",
+    "specification": [
+      "24.2MP Full-Frame CMOS Sensor",
+      "4K 60fps Video Recording",
+      "Dual Pixel Autofocus",
+      "Wi-Fi and Bluetooth Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "C002",
+    "product_title": "Sony Alpha a7 IV",
+    "product_image": "https://i.ibb.co.com/r7vYs4S/Sony-Alpha-7-IV-Mirrorless-Full-Frame-Hybrid-Camera-With-28-70mm-Zoom-Lens.jpg",
+    "category": "Cameras",
+    "price": 2799.99,
+    "description": "Versatile full-frame camera with advanced features for photography and video.",
+    "specification": [
+      "33MP Full-Frame Sensor",
+      "4K 60fps Video Recording",
+      "Real-Time Eye Autofocus",
+      "5-axis Image Stabilization"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "C003",
+    "product_title": "Nikon Z50",
+    "product_image": "https://i.ibb.co.com/dJSs7NK/nikon.jpg",
+    "category": "Cameras",
+    "price": 999.99,
+    "description": "Compact and lightweight mirrorless camera with impressive image quality.",
+    "specification": [
+      "20.9MP APS-C Sensor",
+      "4K UHD Video Recording",
+      "Hybrid Autofocus",
+      "Wi-Fi and Bluetooth Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "W001",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/vwYTW38/appwatch.jpg",
+    "category": "Smartwatches",
+    "price": 399.99,
+    "description": "Advanced smartwatch with fitness tracking and seamless integration with iPhone.",
+    "specification": [
+      "Always-On Retina Display",
+      "Blood Oxygen Sensor",
+      "ECG App",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "W002",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/YyW6Tv4/galaxy-watch6-kv-pc.jpg",
+    "category": "Smartwatches",
+    "price": 349.99,
+    "description": "Stylish smartwatch with advanced health monitoring and fitness tracking.",
+    "specification": [
+      "AMOLED Display",
+      "Blood Pressure Monitoring",
+      "Body Composition Analysis",
+      "Built-in GPS"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "W003",
+    "product_title": "Garmin Forerunner 955",
+    "product_image": "https://i.ibb.co.com/3Ck6VCN/garmin.jpg",
+    "category": "Smartwatches",
+    "price": 499.99,
+    "description": "High-performance GPS smartwatch for serious athletes.",
+    "specification": [
+      "Full-Color Touchscreen",
+      "Multi-Band GPS",
+      "Up to 15 Days Battery Life",
+      "Training Readiness Score"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "S004",
+    "product_title": "OnePlus 11",
+    "product_image": "https://i.ibb.co.com/Qjj7JCq/oneplus-11-and-oneplus-buds-pro-2-in-green.jpg",
+    "category": "Smartphones",
+    "price": 699.99,
+    "description": "Flagship smartphone with a Hasselblad-tuned camera and fast charging.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "50MP Main Camera",
+      "100W SuperVOOC Charging"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "S005",
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://i.ibb.co.com/hg7Wmbt/Xiaomi-13-Pro-Ceramic-White-4073.jpg",
+    "category": "Smartphones",
+    "price": 749.99,
+    "description": "Affordable flagship smartphone with a Leica-powered camera.",
+    "specification": [
+      "6.73-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "50MP Leica Camera",
+      "120W Fast Charging"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "L004",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/B4qDfhQ/hp.jpg",
+    "category": "Laptops",
+    "price": 1499.99,
+    "description": "2-in-1 laptop with a stunning design and excellent performance.",
+    "specification": [
+      "13.5-inch OLED touchscreen",
+      "Intel Core i7 12th Gen",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  }
+]
