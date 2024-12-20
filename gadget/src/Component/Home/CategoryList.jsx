@@ -20,10 +20,10 @@ const CategoryList = () => {
         {categories.map((category, index) => (
           <li
             key={index}
-            onClick={() => setActiveCategory(category)} // Update active category on click
+            onClick={() => setActiveCategory(category)}
             className={`p-3 rounded-lg font-medium cursor-pointer transition ${
               activeCategory === category
-                ? "bg-custom-purple text-white" // Active state styling
+                ? "bg-custom-purple text-white"
                 : "bg-gray-200 hover:bg-gray-300"
             }`}
           >

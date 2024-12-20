@@ -27,7 +27,6 @@ const Home = () => {
             <CategoryList />
           </div>
 
-          {/* Main content (Nested Outlet) */}
           <div className="w-3/4">
             <Outlet />
           </div>

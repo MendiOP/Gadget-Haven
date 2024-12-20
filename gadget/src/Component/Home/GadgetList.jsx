@@ -6,17 +6,17 @@ const GadgetList = () => {
   const { category } = useParams();
 
   useEffect(() => {
-    fetch("/data.json") // Correct path for public folder
+    fetch("/data.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         setGadgets(data);
       });
   }, []);
 
   // Filter gadgets based on the selected category
+  // Show all items if no category is provided or if 'all' is in the URL
   const filteredGadgets =
-    category === "all" || !category
+    !category || category === "all"
       ? gadgets
       : gadgets.filter(
           (gadget) => gadget.category.toLowerCase() === category.toLowerCase()

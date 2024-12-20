@@ -93,7 +93,7 @@ const Dashboard = () => {
                 </button>
                 <button
                   onClick={() => handlePurchase()}
-                  disabled={cart.length === 0 || totalCost === 0} // Disable button if cart is empty or total cost is 0
+                  disabled={cart.length === 0 || totalCost === 0}
                   className="border border-custom-purple bg-custom-purple text-white px-4 py-2 rounded-full transition-colors duration-300 hover:bg-purple-800 active:bg-purple-900"
                 >
                   Purchase
@@ -103,7 +103,12 @@ const Dashboard = () => {
 
             <div>
               {cart.length === 0 ? (
-                <p>Your cart is empty.</p>
+                <div className="text-center">
+                  <p className="text-[50px] space-y-3">&#128542;</p>
+                  <p className="font-extrabold text-center text-2xl mt-5">
+                    Your Wishlist is empty.
+                  </p>
+                </div>
               ) : (
                 cart.map((item, index) => (
                   <div
@@ -133,7 +138,12 @@ const Dashboard = () => {
           <>
             <div>
               {cart.length === 0 ? (
-                <p>Your Wishlist is empty.</p>
+                <div className="text-center">
+                  <p className="text-[50px] space-y-3">&#128542;</p>
+                  <p className="font-extrabold text-center text-2xl mt-5">
+                    Your Wishlist is empty.
+                  </p>
+                </div>
               ) : (
                 cart.map((item, index) => (
                   <div
@@ -168,11 +178,7 @@ const Dashboard = () => {
           </p>
           <div className="modal-action">
             <form method="dialog">
-              {/* if there is a button in form, it will close the modal */}
-              <button
-                onClick={() => navigate("/", { replace: true })}
-                className="btn"
-              >
+              <button onClick={() => navigate("/")} className="btn">
                 Close
               </button>
             </form>

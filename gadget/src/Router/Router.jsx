@@ -5,7 +5,7 @@ import Details from "../Component/Details/Details";
 import ErrorPage from "../Component/ErrorPage/Errorpage";
 import GadgetList from "../Component/Home/GadgetList";
 import Home from "../Component/Home/Home";
-import Statistics from "../Component/Statistics/Statistics";
+import Offers from "../Component/Offers/Offers";
 
 const Router = createBrowserRouter([
   {
@@ -23,8 +23,8 @@ const Router = createBrowserRouter([
     element: <Dashboard />,
   },
   {
-    path: "/statistics",
-    element: <Statistics />,
+    path: "/offers",
+    element: <Offers />,
   },
   {
     path: "/details/:id",
@@ -35,7 +35,7 @@ const Router = createBrowserRouter([
     element: <Details></Details>,
   },
   {
-    path: "*", // Wildcard for 404
+    path: "*",
     element: <ErrorPage />,
   },
 ]);
