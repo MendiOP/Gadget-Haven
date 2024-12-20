@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { FaRegStar, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { useLoaderData } from "react-router-dom";
 import { Bounce, toast, ToastContainer } from "react-toastify";
@@ -101,6 +102,9 @@ const Details = () => {
 
   return (
     <div className="bg-gray-300">
+      <Helmet>
+        <title>Item Details - Gadget-Heaven</title>
+      </Helmet>
       <Navbar></Navbar>
       <div className="text-center p-6 h-[500px] bg-custom-purple text-white">
         <h1 className="font-extrabold text-4xl ">Product Details</h1>

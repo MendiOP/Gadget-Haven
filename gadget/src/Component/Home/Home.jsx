@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Outlet } from "react-router-dom";
 import banner from "../../assets/banner.jpg";
 import Footer from "../Footer/Footer";
@@ -8,6 +9,9 @@ import CategoryList from "./CategoryList";
 const Home = () => {
   return (
     <div className="font-sora bg-gray-300">
+      <Helmet>
+        <title>Home - Gadget Heaven</title>
+      </Helmet>
       <header className="bg-custom-purple text-white h-[700px]">
         <Header />
       </header>

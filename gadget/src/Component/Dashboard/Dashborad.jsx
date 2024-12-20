@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
@@ -14,7 +15,7 @@ const Dashboard = () => {
       activeButton === "cart" ? "cart" : "wishList"
     );
     setCart(JSON.parse(items) || []);
-  }, []);
+  }, [activeButton]);
 
   useEffect(() => {
     const newTotalCost = cart.reduce((total, item) => total + item.price, 0);
@@ -43,6 +44,9 @@ const Dashboard = () => {
 
   return (
     <div className="font-sora bg-gray-200">
+      <Helmet>
+        <title>Dashboard - Gadget Heaven</title>
+      </Helmet>
       <Navbar></Navbar>
 
       <div className="mb-10">
@@ -158,9 +162,9 @@ const Dashboard = () => {
 
       <dialog id="my_modal_1" className="modal">
         <div className="modal-box">
-          <h3 className="font-bold text-lg">Hello!</h3>
+          <h3 className="font-bold text-lg">Congratulations!</h3>
           <p className="py-4">
-            Press ESC key or click the button below to close
+            Your purchase has been successful. Thank you for shopping with us!
           </p>
           <div className="modal-action">
             <form method="dialog">
