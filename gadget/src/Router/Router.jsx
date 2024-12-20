@@ -13,6 +13,10 @@ const Router = createBrowserRouter([
     element: <Home />,
     children: [
       {
+        path: "/",
+        element: <GadgetList />,
+      },
+      {
         path: ":category",
         element: <GadgetList />,
       },

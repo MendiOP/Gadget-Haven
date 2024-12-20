@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
 
         <div className="text-center mt-10">
           <button className="px-4 py-2 bg-white text-custom-purple rounded-lg border border-custom-purple shadow-md hover:bg-gray-100 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer">
-            Shop Now
+            <Link to="/dashboard">Shop Now</Link>
           </button>
         </div>
       </div>

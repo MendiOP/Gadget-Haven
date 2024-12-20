@@ -3,6 +3,8 @@ import { Link, useParams } from "react-router-dom";
 
 const GadgetList = () => {
   const [gadgets, setGadgets] = useState([]);
+  const items = ["laptops", "smartphones", "cameras", "smartwatches"];
+
   const { category } = useParams();
 
   useEffect(() => {
@@ -13,10 +15,8 @@ const GadgetList = () => {
       });
   }, []);
 
-  // Filter gadgets based on the selected category
-  // Show all items if no category is provided or if 'all' is in the URL
   const filteredGadgets =
-    !category || category === "all"
+    !category || category === "all" || !items.includes(category)
       ? gadgets
       : gadgets.filter(
           (gadget) => gadget.category.toLowerCase() === category.toLowerCase()

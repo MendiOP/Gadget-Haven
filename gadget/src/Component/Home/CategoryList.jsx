@@ -10,7 +10,6 @@ const CategoryList = () => {
     "Smartwatches",
   ];
 
-  // State to keep track of the active category
   const [activeCategory, setActiveCategory] = useState("All");
 
   return (
